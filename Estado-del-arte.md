@@ -1,12 +1,10 @@
 # IF-Proyecto-Física-Médica
 # Introducción
-
+El acceso equitativo y oportuno a métodos de diagnóstico médico representa uno de los mayores retos de la salud pública en el Perú y a nivel global. Actualmente, la evaluación de patologías vasculares como la Trombosis Venosa Profunda (TVP), la isquemia muscular o la 
+caracterización de masas tisulares depende fuertemente de tecnologías de imagenología convencional como la tomografía axial computarizada (TAC), la resonancia magnética (RM) y la ecografía Doppler. Si bien estos métodos ofrecen alta resolución espacial, su implementación masiva enfrenta graves limitaciones estructurales.
 # Estructura
 
 ### 1. Problemática
-El acceso equitativo y oportuno a métodos de diagnóstico médico representa uno de los mayores retos de la salud pública en el Perú y a nivel global. Actualmente, la evaluación de patologías vasculares como la Trombosis Venosa Profunda (TVP), la isquemia muscular o la 
-caracterización de masas tisulares depende fuertemente de tecnologías de imagenología convencional como la tomografía axial computarizada (TAC), la resonancia magnética (RM) y la ecografía Doppler. Si bien estos métodos ofrecen alta resolución espacial, su implementación masiva enfrenta graves limitaciones estructurales:
-
 ###### Saturación e Inoperatividad de Equipos Médicos: 
 En el sistema de salud público (MINSA y EsSalud), los reportes de organismos de control señalan un porcentaje significativo de tomógrafos y ecógrafos inoperativos debido a la falta de mantenimiento preventivo y al sobreuso por alta demanda. Esto genera listas de espera para exámenes especializados de entre 1 a 3 meses, un tiempo crítico donde patologías vasculares pueden evolucionar hacia complicaciones mortales. 
 
@@ -26,4 +24,6 @@ Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda no manifie
 Frente a este escenario, el proyecto Bio-Lux propone el desarrollo de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos), el dispositivo permite realizar descartes rápidos en triaje o atención primaria en menos de un minuto, sin requerir personal altamente especializado ni infraestructura compleja. 
 
 ### 3. Antecedentes
+
 ### 4. Objetivo
+Detección de tumores y prevención de muerte por Trombosis.
