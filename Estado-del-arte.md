@@ -24,6 +24,8 @@ Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda no manifie
 Frente a este escenario, el proyecto Bio-Lux propone el desarrollo de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos), el dispositivo permite realizar descartes rápidos en triaje o atención primaria en menos de un minuto, sin requerir personal altamente especializado ni infraestructura compleja. 
 
 ### 3. Antecedentes
-
+DOI:
+- 10.1117/1.JBO.20.1.010502
+  
 ### 4. Objetivo
 Detección de tumores y prevención de muerte por Trombosis.
