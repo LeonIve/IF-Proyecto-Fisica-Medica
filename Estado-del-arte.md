@@ -41,4 +41,6 @@ DOI: 10.1016/0741-5214(93)90330-O
 https://www.scopus.com/pages/publications/0027430092?origin=resultslist
 
 ### 4. Objetivo
-Detección de tumores y prevención de muerte por Trombosis.
+- Detección de tumores y prevención de muerte por trombosis venosa profunda (TVP) mediante el desarrollo y mejoramiento de un dispositivo NIRS (Near-Infrared spectroscopy).
+- Reducción de coste de pruebas y análisis de TVP.
+- Accesibilidad inmediata y reducción en el tiempo de análisis de TVP.
