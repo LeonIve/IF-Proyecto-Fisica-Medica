@@ -24,8 +24,19 @@ Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda no manifie
 Frente a este escenario, el proyecto Bio-Lux propone el desarrollo de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos), el dispositivo permite realizar descartes rápidos en triaje o atención primaria en menos de un minuto, sin requerir personal altamente especializado ni infraestructura compleja. 
 
 ### 3. Antecedentes
-DOI:
-- 10.1117/1.JBO.20.1.010502
-  
+Li T., Sun Y., Chen X., Zhao Y., Ren R.
+AUTHOR FULL NAMES: Li, Ting (55728945000); Sun, Yunlong (56086564500); Chen, Xiao (56510551700); Zhao, Yue (56086594600); Ren, Rongrong (58420599500)
+55728945000; 56086564500; 56510551700; 56086594600; 58420599500
+Noninvasive diagnosis and therapeutic effect evaluation of deep vein thrombosis in clinics by near-infrared spectroscopy
+(2015) Journal of Biomedical Optics, 20 (1), art. no. 010502, Cited 31 times.
+DOI: 10.1117/1.JBO.20.1.010502
+https://www.scopus.com/pages/publications/84922572855?origin=resultslist
+
+DOCUMENT TYPE: Article
+PUBLICATION STAGE: Final
+OPEN ACCESS: All Open Access; Bronze Open Access
+SOURCE: Scopus
+EID: 2-s2.0-84922572855
+
 ### 4. Objetivo
 Detección de tumores y prevención de muerte por Trombosis.
