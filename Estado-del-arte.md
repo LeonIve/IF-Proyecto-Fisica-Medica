@@ -24,19 +24,26 @@ Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda no manifie
 Frente a este escenario, el proyecto Bio-Lux propone el desarrollo de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos), el dispositivo permite realizar descartes rápidos en triaje o atención primaria en menos de un minuto, sin requerir personal altamente especializado ni infraestructura compleja. 
 
 ### 3. Antecedentes
-Li T., Sun Y., Chen X., Zhao Y., Ren R.
-AUTHOR FULL NAMES: Li, Ting (55728945000); Sun, Yunlong (56086564500); Chen, Xiao (56510551700); Zhao, Yue (56086594600); Ren, Rongrong (58420599500)
-55728945000; 56086564500; 56510551700; 56086594600; 58420599500
-Noninvasive diagnosis and therapeutic effect evaluation of deep vein thrombosis in clinics by near-infrared spectroscopy
-(2015) Journal of Biomedical Optics, 20 (1), art. no. 010502, Cited 31 times.
-DOI: 10.1117/1.JBO.20.1.010502
-https://www.scopus.com/pages/publications/84922572855?origin=resultslist
-
+- Li T., Sun Y., Chen X., Zhao Y., Ren R.
 DOCUMENT TYPE: Article
 PUBLICATION STAGE: Final
 OPEN ACCESS: All Open Access; Bronze Open Access
 SOURCE: Scopus
 EID: 2-s2.0-84922572855
+
+Arora S., Lam D.J.K., Kennedy C., Meier G.H., Gusberg R.J., Negus D.
+AUTHOR FULL NAMES: Arora, Subodh (57196588088); Lam, David J.K. (7201749693); Kennedy, Collette (57196725505); Meier, George H. (7103175047); Gusberg, Richard J. (7003957245); Negus, David (7006372987)
+57196588088; 7201749693; 57196725505; 7103175047; 7003957245; 7006372987
+Light reflection rheography: A simple noninvasive screening test for deep vein thrombosis
+(1993) Journal of Vascular Surgery, 18 (5), pp. 767 - 772, Cited 19 times.
+DOI: 10.1016/0741-5214(93)90330-O
+https://www.scopus.com/pages/publications/0027430092?origin=resultslist
+
+DOCUMENT TYPE: Article
+PUBLICATION STAGE: Final
+OPEN ACCESS: All Open Access; Hybrid Gold Open Access
+SOURCE: Scopus
+EID: 2-s2.0-0027430092
 
 ### 4. Objetivo
 Detección de tumores y prevención de muerte por Trombosis.
