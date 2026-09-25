@@ -21,7 +21,7 @@ Muchas postas médicas rurales (niveles I-1 e I-2) operan con equipamiento míni
 Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda no manifiestan síntomas clínicos evidentes en etapas tempranas. Cuando los síntomas agudos aparecen, la condición suele estar en fase avanzada.
 
 ### 2. Aplicación
-Frente a este escenario, el proyecto Bio-Lux propone el desarrollo de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos), el dispositivo permite realizar descartes rápidos en triaje o atención primaria en menos de un minuto, sin requerir personal altamente especializado ni infraestructura compleja. 
+Se propone el desarrollo y mejoramiento de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo que medirá las concentraciones de oxihemoglobina \Delta[HbO_2] y desoxihemoglobina \Delta[Hb] mediante luz y sensores IR. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos) y la Ley de Beer-Lambert para traducir densidades ópticas en datos de \Delta[HbO_2] y \Delta[Hb]. El dispositivo permite realizar descartes rápidos en triaje o atención primaria en un par de minutos, sin requerir personal altamente especializado ni infraestructura compleja. 
 
 ### 3. Antecedentes
 - Li T., Sun Y., Chen X., Zhao Y., Ren R.
