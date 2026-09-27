@@ -45,6 +45,77 @@ https://www.scopus.com/pages/publications/0027430092?origin=resultslist
 - Reducción de coste de pruebas y análisis de TVP.
 - Accesibilidad inmediata y reducción en el tiempo de análisis de TVP.
 
+## :electric_plug: Parte Electrónica del Dispositivo
+
+### 5. Diseño del Sistema Electrónico :pushpin:
+
+El sistema electrónico es el corazón del dispositivo NIRS. Se encarga de generar la señal de luz infrarroja, controlar la emisión, detectar la luz que atraviesa el tejido, convertirla a señal eléctrica, amplificarla y digitalizarla para su procesamiento. Todo diseñado para ser portátil, de bajo costo y bajo consumo.
+
+---
+
+### :jigsaw: Componentes a Utilizar
+
+| Componente | Función | Recomendación |
+|---|---|---|
+| Microcontrolador | Cerebro del sistema: controla emisión, lee sensores, procesa datos | Arduino Nano / ESP32 — económico, fácil de programar, suficiente para NIRS |
+| LED Infrarrojo (IR) | Emite luz hacia el tejido biológico | LED 850 nm y 940 nm (dos longitudes de onda para medir HbO₂ y Hb) |
+| Fotodiodo / Fototransistor | Recibe la luz que regresa del tejido y la convierte en señal eléctrica | Fotodiodo BPW21 o similar — sensible en rango visible e IR |
+| Circuito de Amplificación | La señal del fotodiodo es muy débil → se necesita amplificar | Op-Amp LM358 o TL081 — amplificador operacional de bajo costo |
+| Filtros | Eliminar ruido de la red eléctrica (50/60 Hz) y luces ambientales | Condensadores de 100nF + resistores → filtro pasa-bajos simple |
+| Fuente de Alimentación | Energía portátil para todo el circuito | Batería de 3.7V Li-ion + módulo cargador TP4056 + regulador 5V |
+| Resistencias y Condensadores | Polarización, protección y estabilización del circuito | Varios valores: 220Ω, 1kΩ, 10kΩ, 100nF, 10µF |
+| Pantalla / Indicador | Mostrar resultados en tiempo real | Pantalla OLED 128×64 (I2C) — pequeña, económica y clara |
+
+---
+
+### :gear: Funcionamiento del Circuito
+
+1. Emisión: El microcontrolador envía una señal para encender los LEDs IR a frecuencia definida → la luz penetra en el tejido biológico.
+2. Detección: El fotodiodo capta la luz que regresa → genera una corriente muy pequeña proporcional a la intensidad recibida.
+3. Amplificación: El amplificador operacional convierte esa señal débil en voltaje medible → ajustamos la ganancia según necesidad.
+4. Filtrado: Se eliminan interferencias de luces externas y ruido eléctrico.
+5. Conversión A/D: El microcontrolador lee el voltaje → convierte a valor numérico.
+6. Cálculo: Aplica la Ley de Beer-Lambert → calcula cambios en concentraciones de oxihemoglobina y desoxihemoglobina.
+7. Salida: Muestra resultados en pantalla y/o envía datos por USB.
+
+---
+
+### :moneybag: Estimación de Costos
+
+| Componente | Aprox. Precio (S/) |
+|---|---:|
+| Arduino Nano | 15 – 20 |
+| 2 LEDs IR (850nm + 940nm) | 4 – 6 |
+| Fotodiodo BPW21 | 5 – 8 |
+| Amplificador LM358 | 2 – 3 |
+| Pantalla OLED 128×64 | 10 – 15 |
+| Batería + módulo carga | 15 – 20 |
+| Resistencias, condensadores, cables | 5 – 10 |
+| **TOTAL** | **~S/. 56 – 82** |
+
+Costo ultra bajo comparado con equipos comerciales que cuestan miles de dólares.
+
+---
+
+### :white_check_mark: Recomendaciones de Diseño y Montaje
+
+- Diseño compacto: Colocar emisor y detector muy juntos (~1–2 cm) para que la luz viaje por el tejido y regrese.
+- Protección: Usar cubierta opaca alrededor del sensor → evitar que la luz ambiente interfiera.
+- Estabilidad: Alimentar los circuitos de amplificación con condensadores cercanos a las patas del chip → reducir ruido.
+- Calibración: Probar primero con materiales de propiedades ópticas conocidas antes de pruebas en personas.
+- Código: Encender y apagar los LEDs alternadamente → permite diferenciar la señal de luz del dispositivo vs. luz externa.
+
+---
+
+### :pushpin: Próximos Pasos
+
+- [ ] Diseñar el diagrama esquemático del circuito
+- [ ] Hacer el montaje en placa de pruebas (protoboard)
+- [ ] Escribir el código de lectura y procesamiento
+- [ ] Calibrar con patrones de referencia
+- [ ] Reducir tamaño y fabricar placa definitiva
+
+
 ## 👥 Equipo del Proyecto
 
 | Foto | Nombre y Código | Rol |
