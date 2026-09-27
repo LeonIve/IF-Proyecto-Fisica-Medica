@@ -106,7 +106,37 @@ Costo ultra bajo comparado con equipos comerciales que cuestan miles de dólares
 - Código: Encender y apagar los LEDs alternadamente → permite diferenciar la señal de luz del dispositivo vs. luz externa.
 
 ---
+## :chart_with_upwards_trend: Cronograma del Proyecto — Diagrama de Gantt
 
+| Semana | Actividad | Entregable | Peso | Estado |
+|:---:|---|---|:---:|:---:|
+| **3** | Definición del problema, objetivos y alcance del proyecto | Propuesta | 15% | :hourglass_flowing_sand: En proceso |
+| **4** | Investigación de antecedentes y elaboración del Estado del Arte | Documento Estado del Arte | — | :clock5: Pendiente |
+| **5** | Planificación detallada: lista de componentes, presupuesto y cronograma | Plan de Proyecto | 20% | :clock5: Pendiente |
+| **6** | Diseño del sistema electrónico: esquemas y selección final de componentes | Diseño Esquemático | — | :clock5: Pendiente |
+| **7** | Montaje en protoboard y conexión de circuitos | Avance de Montaje | — | :clock5: Pendiente |
+| **8** | Programación del microcontrolador y pruebas básicas de emisión/recepción | Código + Pruebas Preliminares | — | :clock5: Pendiente |
+| **9 – 10** | Calibración del sensor, ajuste de amplificación y filtrado | Informe de Calibración | — | :clock5: Pendiente |
+| **11 – 12** | Pruebas con muestras/phantoms y toma de datos experimentales | Resultados Experimentales | — | :clock5: Pendiente |
+| **13 – 14** | Análisis de resultados, comparación con referencias y redacción de conclusiones | Borrador de Informe Final | — | :clock5: Pendiente |
+| **15** | Revisión por pares, correcciones y ajustes finales | Informe Final Revisado | — | :clock5: Pendiente |
+| **16** | Entrega oficial del Reporte Técnico Final | Reporte Técnico Final | 20% | :date: Entrega |
+
+---
+
+### :bar_chart: Resumen de Etapas
+
+| Etapa | Semanas | Duración |
+|---|:---:|:---:|
+| 1. Propuesta y Definición | 3 | 1 semana |
+| 2. Planificación y Estado del Arte | 4 – 5 | 2 semanas |
+| 3. Diseño y Montaje Electrónico | 6 – 8 | 3 semanas |
+| 4. Programación y Calibración | 9 – 10 | 2 semanas |
+| 5. Pruebas y Toma de Datos | 11 – 12 | 2 semanas |
+| 6. Análisis, Redacción y Revisión | 13 – 15 | 3 semanas |
+| 7. Entrega Final | 16 | 1 semana |
+
+### :checkered_flag: Avance General: 15%
 
 
 ## 👥 Equipo del Proyecto
