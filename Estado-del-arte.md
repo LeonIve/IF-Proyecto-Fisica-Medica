@@ -44,3 +44,13 @@ https://www.scopus.com/pages/publications/0027430092?origin=resultslist
 - Detección de tumores y prevención de muerte por trombosis venosa profunda (TVP) mediante el desarrollo y mejoramiento de un dispositivo NIRS (Near-Infrared spectroscopy).
 - Reducción de coste de pruebas y análisis de TVP.
 - Accesibilidad inmediata y reducción en el tiempo de análisis de TVP.
+
+## 👥 Equipo del Proyecto
+
+| Foto | Nombre y Código | Rol |
+|:---:|:---|:---|
+| <img src="enlace_foto_1" width="90" style="border-radius:50%"> | **Jairo Jefferson Ortega Vega**<br>`Código: 20220089E` | Aquí tu rol |
+| <img src="enlace_foto_2" width="90" style="border-radius:50%"> | **Nombre 2**<br>`Código: XXXX` | Aquí tu rol |
+| <img src="enlace_foto_3" width="90" style="border-radius:50%"> | **Nombre 3**<br>`Código: XXXX` | Aquí tu rol |
+| <img src="enlace_foto_4" width="90" style="border-radius:50%"> | **Nombre 4**<br>`Código: XXXX` | Aquí tu rol |
+| <img src="enlace_foto_5" width="90" style="border-radius:50%"> | **Nombre 5**<br>`Código: XXXX` | Aquí tu rol |
