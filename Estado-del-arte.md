@@ -20,10 +20,10 @@ Muchas postas médicas rurales (niveles I-1 e I-2) operan con equipamiento míni
 ###### Peligrosidad de Patologías Asintomáticas:
 Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda no manifiestan síntomas clínicos evidentes en etapas tempranas. Cuando los síntomas agudos aparecen, la condición suele estar en fase avanzada.
 
-### 2. Aplicación
+### 2. Aplicación :pushpin:
 Se propone el desarrollo y mejoramiento de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo que medirá las concentraciones de oxihemoglobina \Delta[HbO_2] y desoxihemoglobina \Delta[Hb] mediante luz y sensores IR. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos) y la Ley de Beer-Lambert para traducir densidades ópticas en datos de \Delta[HbO_2] y \Delta[Hb]. El dispositivo permite realizar descartes rápidos en triaje o atención primaria en un par de minutos, sin requerir personal altamente especializado ni infraestructura compleja. 
 
-### 3. Antecedentes
+### 3. Antecedentes :pushpin:
 - Li T., Sun Y., Chen X., Zhao Y., Ren R.
 AUTHOR FULL NAMES: Li, Ting (55728945000); Sun, Yunlong (56086564500); Chen, Xiao (56510551700); Zhao, Yue (56086594600); Ren, Rongrong (58420599500)
 55728945000; 56086564500; 56510551700; 56086594600; 58420599500
@@ -40,7 +40,7 @@ Light reflection rheography: A simple noninvasive screening test for deep vein t
 DOI: 10.1016/0741-5214(93)90330-O
 https://www.scopus.com/pages/publications/0027430092?origin=resultslist
 
-### 4. Objetivo
+### 4. Objetivo :pushpin:
 - Detección de tumores y prevención de muerte por trombosis venosa profunda (TVP) mediante el desarrollo y mejoramiento de un dispositivo NIRS (Near-Infrared spectroscopy).
 - Reducción de coste de pruebas y análisis de TVP.
 - Accesibilidad inmediata y reducción en el tiempo de análisis de TVP.
