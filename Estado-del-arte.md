@@ -4,7 +4,7 @@ El acceso equitativo y oportuno a métodos de diagnóstico médico representa un
 caracterización de masas tisulares depende fuertemente de tecnologías de imagenología convencional como la tomografía axial computarizada (TAC), la resonancia magnética (RM) y la ecografía Doppler. Si bien estos métodos ofrecen alta resolución espacial, su implementación masiva enfrenta graves limitaciones estructurales.
 # Estructura
 
-### 1. Problemática
+### 1. Problemática :pushpin:
 ###### Saturación e Inoperatividad de Equipos Médicos: 
 En el sistema de salud público (MINSA y EsSalud), los reportes de organismos de control señalan un porcentaje significativo de tomógrafos y ecógrafos inoperativos debido a la falta de mantenimiento preventivo y al sobreuso por alta demanda. Esto genera listas de espera para exámenes especializados de entre 1 a 3 meses, un tiempo crítico donde patologías vasculares pueden evolucionar hacia complicaciones mortales. 
 
