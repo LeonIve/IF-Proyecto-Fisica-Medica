@@ -107,13 +107,6 @@ Costo ultra bajo comparado con equipos comerciales que cuestan miles de dólares
 
 ---
 
-### :pushpin: Próximos Pasos
-
-- [ ] Diseñar el diagrama esquemático del circuito
-- [ ] Hacer el montaje en placa de pruebas (protoboard)
-- [ ] Escribir el código de lectura y procesamiento
-- [ ] Calibrar con patrones de referencia
-- [ ] Reducir tamaño y fabricar placa definitiva
 
 
 ## 👥 Equipo del Proyecto
