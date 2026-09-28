@@ -48,15 +48,15 @@ El sistema electrónico es el :heart: corazón del dispositivo NIRS. Se encarga 
 
 | Foto | Componente | Función | Recomendación |
 |:---:|---|---|---|
-| <img src="images.jfif" width="120"> | :brain: Microcontrolador | Cerebro del sistema: controla emisión, lee sensores, procesa datos | Arduino Nano / ESP32 — económico, fácil de programar, suficiente para NIRS |
-| <img src="images (1).jfif" width="120"> | :flashlight: LED Infrarrojo (IR) | Emite luz hacia el tejido biológico | LED 850 nm y 940 nm (dos longitudes de onda para medir HbO₂ y Hb) |
-| <img src="images (2).jfif" width="120"> | :eye: Fotodiodo / Fototransistor | Recibe la luz que regresa del tejido y la convierte en señal eléctrica | Fotodiodo BPW21 o similar — sensible en rango visible e IR |
-| <img src="images (3).jfif" width="120"> | :loudspeaker: Circuito de Amplificación | La señal del fotodiodo es muy débil → se necesita amplificar | Op-Amp LM358 o TL081 — amplificador operacional de bajo costo |
-| <img src="images (4).jfif" width="120"> | :broom: Filtros | Eliminar ruido de la red eléctrica (50/60 Hz) y luces ambientales | Condensadores de 100nF + resistores → filtro pasa-bajos simple |
-| <img src="images (5).jfif" width="120"> | :battery: Fuente de Alimentación | Energía portátil para todo el circuito | Batería de 3.7V Li-ion + módulo cargador TP4056 + regulador 5V |
-| <img src="images (6).jfif" width="120"> | :battery: Fuente de Alimentación | Energía portátil para todo el circuito | Regulador 5V |
-| <img src="images (7).jfif" width="120"> | :gear: Resistencias y Condensadores | Polarización, protección y estabilización del circuito | Varios valores: 220Ω, 1kΩ, 10kΩ, 100nF, 10µF |
-| <img src="images (8).jfif" width="120"> | :tv: Pantalla / Indicador | Mostrar resultados en tiempo real | Pantalla OLED 128×64 (I2C) — pequeña, económica y clara |
+| <img src="Imagenes/images.jfif" width="120"> | :brain: Microcontrolador | Cerebro del sistema: controla emisión, lee sensores, procesa datos | Arduino Nano / ESP32 — económico, fácil de programar, suficiente para NIRS |
+| <img src="Imagenes/images (1).jfif" width="120"> | :flashlight: LED Infrarrojo (IR) | Emite luz hacia el tejido biológico | LED 850 nm y 940 nm (dos longitudes de onda para medir HbO₂ y Hb) |
+| <img src="Imagenes/images (2).jfif" width="120"> | :eye: Fotodiodo / Fototransistor | Recibe la luz que regresa del tejido y la convierte en señal eléctrica | Fotodiodo BPW21 o similar — sensible en rango visible e IR |
+| <img src="Imagenes/images (3).jfif" width="120"> | :loudspeaker: Circuito de Amplificación | La señal del fotodiodo es muy débil → se necesita amplificar | Op-Amp LM358 o TL081 — amplificador operacional de bajo costo |
+| <img src="Imagenes/images (4).jfif" width="120"> | :broom: Filtros | Eliminar ruido de la red eléctrica (50/60 Hz) y luces ambientales | Condensadores de 100nF + resistores → filtro pasa-bajos simple |
+| <img src="Imagenes/images (5).jfif" width="120"> | :battery: Fuente de Alimentación | Energía portátil para todo el circuito | Batería de 3.7V Li-ion + módulo cargador TP4056 + regulador 5V |
+| <img src="Imagenes/images (6).jfif" width="120"> | :battery: Fuente de Alimentación | Energía portátil para todo el circuito | Regulador 5V |
+| <img src="Imagenes/images (7).jfif" width="120"> | :gear: Resistencias y Condensadores | Polarización, protección y estabilización del circuito | Varios valores: 220Ω, 1kΩ, 10kΩ, 100nF, 10µF |
+| <img src="Imagenes/images (8).jfif" width="120"> | :tv: Pantalla / Indicador | Mostrar resultados en tiempo real | Pantalla OLED 128×64 (I2C) — pequeña, económica y clara |
 
 ---
 
@@ -137,8 +137,13 @@ Costo ultra bajo comparado con equipos comerciales que cuestan miles de dólares
 
 | Foto | Nombre y Código | Rol |
 |:---:|:---|:---|
-| <img src="foto.png" width="90" style="border-radius:50%"> | **Jairo Jefferson Ortega Vega**<br>`Código: 20220089E` | ⚙️ **Responsable del diseño, implementación y pruebas del sistema electrónico**<br>— Diseño de circuitos, selección de componentes, montaje, conexionado, calibración y verificación del funcionamiento eléctrico y electrónico del equipo |
+| <img src="Fotos/foto.png" width="90" style="border-radius:50%"> | **Jairo Jefferson Ortega Vega**<br>`Código: 20220089E` | ⚙️ **Responsable del diseño, implementación y pruebas del sistema electrónico**<br>— Diseño de circuitos, selección de componentes, montaje, conexionado, calibración y verificación del funcionamiento eléctrico y electrónico del equipo |
 | <img src="enlace_foto_2" width="90" style="border-radius:50%"> | **Nombre 2**<br>`Código: XXXX` | :small_blue_diamond: Aquí tu rol |
-| <img src="Renato_Leon.jpg" width="90" style="border-radius:50%"> | **Bryan Renato Leon Ive**<br>`Código: 20240541K` | :small_blue_diamond: Aquí tu rol |
+| <img src="Fotos/Renato_Leon.jpg" width="90" style="border-radius:50%"> | **Bryan Renato Leon Ive**<br>`Código: 20240541K` | :small_blue_diamond: Aquí tu rol |
 | <img src="enlace_foto_4" width="90" style="border-radius:50%"> | **Nombre 4**<br>`Código: XXXX` | :small_blue_diamond: Aquí tu rol |
 | <img src="enlace_foto_5" width="90" style="border-radius:50%"> | **Nombre 5**<br>`Código: XXXX` | :small_blue_diamond: Aquí tu rol |
+
+---
+
+### Referencias
+
