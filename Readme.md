@@ -81,6 +81,35 @@ Se propone el desarrollo y mejoramiento de un sistema de caracterización y diag
     
 ###### 3.2 Libros
 
+1. **Wang, L. V., & Wu, H.** (2012). *Biomedical Optics: Principles and Imaging*. John Wiley & Sons.
+
+   📖 [ISBN: 978-0-470-17700-6](https://doi.org/10.1002/9780470177013)
+
+2. **Bigio, I. J., & Fantini, S.** (2016). *Quantitative Biomedical Optics: Theory, Methods, and Applications*. Cambridge University Press.
+
+   📖 [ISBN: 978-0-521-87656-8](https://doi.org/10.1017/CBO9780511805347)
+
+3. **Keiser, G.** (2016). *Biophotonics: Concepts to Applications*. Springer.
+
+   📖 [ISBN: 978-981-10-0945-7](https://doi.org/10.1007/978-981-10-0945-7)
+
+4. **Tuchin, V. V.** (2000). *Tissue Optics: Light Scattering Methods and Instruments for Medical Diagnosis*. SPIE Optical Engineering Press.
+
+   📖 [ISBN: 978-0-8194-3459-3](https://doi.org/10.1117/3.353604)
+
+5. **Hoskins, P. R., Martin, K., & Thrush, A.** (2010). *Diagnostic Ultrasound: Physics and Equipment*. Cambridge University Press.
+
+   📖 [ISBN: 978-1-139-48890-7](https://doi.org/10.1017/CBO9780511761194)
+
+6. **Gloviczki, P.** (2017). *Handbook of Venous and Lymphatic Disorders: Guidelines of the American Venous Forum, Fourth Edition*. CRC Press.
+
+   📖 [ISBN: 978-1-4987-2441-8](https://doi.org/10.1201/9781315111703)
+
+7. **Kasper, D. L., Fauci, A. S., Hauser, S. L., Longo, D. L., Jameson, J. L., & Loscalzo, J.** (2018). *Harrison’s Principles of Internal Medicine* (20th ed., Vols. 1–2). McGraw Hill Professional.
+
+   📖 [ISBN: 978-1-259-64404-7](https://doi.org/10.1036/9781259644030)
+
+
 ### 4. Objetivo :pushpin:
 - :dart: Detección de tumores y prevención de muerte por trombosis venosa profunda (TVP) mediante el desarrollo y mejoramiento de un dispositivo NIRS (Near-Infrared Spectroscopy).
 - :chart_down: Reducción de coste de pruebas y análisis de TVP.
