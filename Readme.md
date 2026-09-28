@@ -7,20 +7,23 @@ El acceso equitativo y oportuno a métodos de diagnóstico médico representa un
 
 ### 1. Problemática :pushpin:
 
-###### :hospital: Saturación e Inoperatividad de Equipos Médicos:
-En el sistema de salud público (MINSA y EsSalud), los reportes de organismos de control señalan un porcentaje significativo de tomógrafos y ecógrafos inoperativos debido a la falta de mantenimiento preventivo y al sobreuso por alta demanda. Esto genera listas de espera para exámenes especializados de entre 1 a 3 meses, un tiempo crítico donde patologías vasculares pueden evolucionar hacia complicaciones mortales.
+###### :hospital: Saturación e Inoperatividad de Equipos de Imagenología Médica Públicos:
+En el sistema de salud público (MINSA y EsSalud), los reportes de organismos de control señalan un porcentaje significativo de tomógrafos, resonadores magnéticos y ecógrafos Doppler inoperativos debido a la falta de mantenimiento preventivo y al sobreuso por alta demanda. Esto genera listas de espera para exámenes especializados de entre 1 a 3 meses, un tiempo crítico donde patologías vasculares pueden evolucionar hacia complicaciones mortales, mientras que un tumor no detectado puede progresar aceleradamente de una etapa localizada a fases metastásicas.
 
-###### :man_health_worker: Déficit y Centralización de Personal Especializado:
-La operación e interpretación en tiempo real de ecografías Doppler y tomografías requiere médicos radiólogos y especialistas. En el Perú, existe una severa brecha de especialistas, concentrados principalmente en Lima y grandes capitales de región, dejando desprovistos a los centros de atención primaria.
+###### :man_health_worker: Déficit y Centralización de Personal Especializado en lectura de Imágenes Diagnósticas:
+La operación e interpretación de ecografías Doppler y tomografías requieren médicos radiólogos y especialistas en tiempo real. En el Perú, existe una severa brecha de especialistas, concentrados principalmente en Lima y grandes capitales de región. Esta centralización deja a miles de peruanos en centros de salud de atención primaria sin personal capacitado para interpretar imágenes complejas, provocando diagnósticos erróneos o retrasos prolongados en la derivación de pacientes.
 
-###### :money_bag: Inaccesibilidad Económica y Barreras Geográficas:
-En el sector privado, el costo de una tomografía o resonancia oscila entre S/. 500 y S/. 2,500 soles, un monto prohibitivo para familias de bajos recursos económicos. Asimismo, estos equipos requieren instalaciones complejas (blindaje contra radiación, acondicionamiento ambiental estricto y suministro eléctrico continuo de alta potencia), imposibilitando su despliegue en postas de salud rurales o periféricas.
+###### :money_bag: Inaccesibilidad Económica por el Alto Costo de exámenes de Imagenología Especializada:
+En el sector privado, el costo de una tomografía o resonancia oscila entre S/. 500 y S/. 2,500 soles, un monto prohibitivo para familias de bajos recursos económicos, obligándolos a postergar sus exámenes diagnósticos y arriesgar su vida por motivos financieros. Asimismo, estos equipos requieren instalaciones complejas (blindaje contra radiación, acondicionamiento ambiental estricto y suministro eléctrico continuo de alta potencia), imposibilitando su despliegue en postas de salud rurales o periféricas.
 
-###### :house_with_garden: Desprotección en Zonas Rurales y Centros de Atención Primaria:
+###### :money_bag: Imposibilidad de Diferenciación Temprana entre Tumores Benignos, Malignos y Coágulos en Triaje Primario:
+Los métodos de palpación manual o evaluación física básica en triaje son incapaces de caracterizar la naturaleza de una masa tisular o diferenciar un coágulo de un proceso neoplásico. Sin herramientas ópticas cuantitativas, no es posible evaluar el grado de angiogénesis, hipervascularización típica de tumores malignos frente a la baja vascularización de una masa benigna o la oclusión total por un trombo, lo que retrasa la derivación prioritaria del paciente a una biopsia o a un tratamiento anticoagulante inmediato. 
+
+###### :house_with_garden: Desprotección en Zonas Rurales y Centros de Atención Primaria en Equipos de Imagenología:
 Muchas postas médicas rurales (niveles I-1 e I-2) operan con equipamiento mínimo o casi nulo. Un paciente con sospecha de coágulo en una zona alejada no cuenta con herramientas de descarte local y debe ser trasladado por carreteras accidentadas durante horas, aumentando exponencialmente el riesgo de desprendimiento del coágulo y embolia pulmonar.
 
 ###### :detective: Peligrosidad de Patologías Asintomáticas:
-Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda no manifiestan síntomas clínicos evidentes en etapas tempranas. Cuando los síntomas agudos aparecen, la condición suele estar en fase avanzada.
+Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda y una fracción considerable de tumores benignos o malignos, no manifiestan sintomatología clínica evidente en etapas tempranas. Cuando los síntomas agudos aparecen, la condición suele estar en fase avanzada. Por ende, la ausencia de dispositivos portátiles de bajo costo para el tamizaje rutinario en triaje impide la detección precoz de estas condiciones en la población general.
 
 ### 2. Aplicación :pushpin:
 Se propone el desarrollo y mejoramiento de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo que medirá las concentraciones de oxihemoglobina Δ[HbO₂] y desoxihemoglobina Δ[Hb] mediante luz y sensores IR. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos) y la Ley de Beer-Lambert para traducir densidades ópticas en datos de Δ[HbO₂] y Δ[Hb]. El dispositivo permite realizar descartes rápidos en triaje o atención primaria en un par de minutos, sin requerir personal altamente especializado ni infraestructura compleja.
