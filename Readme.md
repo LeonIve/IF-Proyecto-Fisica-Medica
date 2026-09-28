@@ -30,9 +30,56 @@ Se propone el desarrollo y mejoramiento de un sistema de caracterización y diag
 
 ### 3. Antecedentes :pushpin:
 
-- Li T., Sun Y., Chen X., Zhao Y., Ren R. (2015) *Noninvasive diagnosis and therapeutic effect evaluation of deep vein thrombosis in clinics by near-infrared spectroscopy*. Journal of Biomedical Optics, 20(1), art. no. 010502. Citado 31 veces. DOI: 10.1117/1.JBO.20.1.010502 — :link: https://www.scopus.com/pages/publications/84922572855?origin=resultslist
+###### 3.1 Artículos
 
-- Arora S., Lam D.J.K., Kennedy C., Meier G.H., Gusberg R.J., Negus D. (1993) *Light reflection rheography: A simple noninvasive screening test for deep vein thrombosis*. Journal of Vascular Surgery, 18(5), pp. 767–772. Citado 19 veces. DOI: 10.1016/0741-5214(93)90330-O — :link: https://www.scopus.com/pages/publications/0027430092?origin=resultslist
+1. Kang, S.-L., Manojlovich, L., Mrozcek, D., & Benson, L. (2022). *Infrared thermography as an adjunctive tool for detection of femoral arterial thrombosis after cardiac catheterization: A prospective, pilot study*. **Catheterization and Cardiovascular Interventions**.
+   https://doi.org/10.1002/ccd.30115
+
+2. Deng, F., Tang, Q., Jiang, M., Zhong, N., et al. (2017). *Infrared thermal imaging and Doppler vessel pressurization ultrasonography to detect lower extremity deep vein thrombosis: Diagnostic accuracy study*. **The Clinical Respiratory Journal**.
+   https://doi.org/10.1111/crj.12639
+
+3. Zhao, K., Pan, B., Li, Z., Zhong, F., Wang, P., & Li, T. (2018). *Performance evaluation for a novel optoelectronic device for noninvasive monitoring thrombosis*. **Microelectronics Reliability, 84**, 134–139.
+   https://doi.org/10.1016/j.microrel.2018.03.021
+
+4. Deng, F., Tang, Q., Zeng, G., Wu, H., et al. (2015). *Effectiveness of digital infrared thermal imaging in detecting lower extremity deep venous thrombosis*. **Medical Physics**.
+   https://doi.org/10.1118/1.4907969
+
+5. Li, T., Sun, Y., Chen, X., Zhao, Y., et al. (2015). *Noninvasive diagnosis and therapeutic effect evaluation of deep vein thrombosis in clinics by near-infrared spectroscopy*. **Journal of Biomedical Optics**.
+   https://doi.org/10.1117/1.JBO.20.1.010502
+
+6. Deng, F., Tang, Q., Zheng, Y., Zeng, G., et al. (2012). *Infrared thermal imaging as a novel evaluation method for deep vein thrombosis in lower limbs*. **Medical Physics**.
+   https://doi.org/10.1118/1.4764485
+
+7. Bagavathiappan, S., Saravanan, T., Philip, J., Jayakumar, T., et al. (2008). *Investigation of peripheral vascular disorders using thermal imaging*. **The British Journal of Diabetes & Vascular Disease**.
+   https://doi.org/10.1177/14746514080080020901
+
+8. Lin, E. P., Bhatt, S., & Dogra, V. S. (2008). *Lower Extremity Venous Doppler*. **Ultrasound Clinics**.
+   https://doi.org/10.1016/j.cult.2007.12.005
+
+9. Yamaki, T., Nozaki, M., Sakurai, H., Takeuchi, M., Soejima, K., & Kono, T. (2006). *The utility of quantitative calf muscle near-infrared spectroscopy in the follow-up of acute deep vein thrombosis*. **Journal of Thrombosis and Haemostasis, 4**(4), 800–806.
+   https://doi.org/10.1111/j.1538-7836.2006.01859.x
+
+10. Goodacre, S., Sampson, F., Stevenson, M., Wailoo, A., Sutton, A., et al. (2006). *Measurement of the clinical and cost-effectiveness of non-invasive diagnostic testing strategies for deep vein thrombosis*. **Health Technology Assessment, 10**(15).
+    https://doi.org/10.3310/hta10150
+
+11. Enoch, S., & Blair, S. D. (2003). *Exclusion of deep vein thrombosis by measuring spot skin temperatures using a hand-held thermo-comparator*. **Phlebology: The Journal of Venous Disease**.
+    https://doi.org/10.1258/026835503322598009
+
+12. Korah, L. K., Scott, F. D., Williams, G. M., Kang, K. A., Dunn, J. F., & Swartz, H. M. (2003). *Preliminary Studies of the Application of Near Infrared Spectroscopy in the Diagnosis of Deep Vein Thrombosis*. En J. F. Dunn & H. M. Swartz (Eds.), **Oxygen Transport to Tissue XXIV** (pp. 697–706). Springer US.
+    https://doi.org/10.1007/978-1-4615-0075-9_70
+
+13. *Oxygen Transport to Tissue XLVII*. Springer. Consultado el 27 de septiembre de 2026.
+    https://link.springer.com/book/9783032426475
+
+14. Hosoi, Y., Yasuhara, H., Miyata, T., Komiyama, T., Onozuka, A., & Shigematsu, H. (1999). *Comparison of near-infrared spectroscopy with air plethysmography in detection of deep vein thrombosis*. **International Angiology, 18**(4), 287–293.
+
+15. Hosoi, Y., Yasuhara, H., Shigematsu, H., Komiyama, T., et al. (1999). *Influence of popliteal vein thrombosis on subsequent ambulatory venous function measured by near-infrared spectroscopy*. **The American Journal of Surgery**.
+    https://doi.org/10.1016/S0002-9610(98)00314-6
+
+16. Arora, S., Lam, D. J. K., Kennedy, C., Meier, G. H., et al. (1993). *Light reflection rheography: A simple noninvasive screening test for deep vein thrombosis*. **Journal of Vascular Surgery**.
+    https://doi.org/10.1016/0741-5214(93)90330-O
+    
+###### 3.2 Libros
 
 ### 4. Objetivo :pushpin:
 - :dart: Detección de tumores y prevención de muerte por trombosis venosa profunda (TVP) mediante el desarrollo y mejoramiento de un dispositivo NIRS (Near-Infrared Spectroscopy).
