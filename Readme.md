@@ -139,6 +139,6 @@ Costo ultra bajo comparado con equipos comerciales que cuestan miles de dólares
 |:---:|:---|:---|
 | <img src="Fotos/foto.png" width="90" style="border-radius:50%"> | **Jairo Jefferson Ortega Vega**<br>`Código: 20220089E` | ⚙️ **Responsable del diseño, implementación y pruebas del sistema electrónico**<br>— Diseño de circuitos, selección de componentes, montaje, conexionado, calibración y verificación del funcionamiento eléctrico y electrónico del equipo |
 | <img src="enlace_foto_2" width="90" style="border-radius:50%"> | **Nombre 2**<br>`Código: XXXX` | :small_blue_diamond: Aquí tu rol |
-| <img src="Fotos/Renato_Leon.jpg" width="90" style="border-radius:50%"> | **Bryan Renato Leon Ive**<br>`Código: 20240541K` | :small_blue_diamond: Aquí tu rol |
+| <img src="Fotos/Renato_Leon.jpg" width="90" style="border-radius:50%"> | **Bryan Renato <br> Leon Ive**<br>`Código: 20240541K` | :book: **Responsable del estudio de los métodos no invasivos para la detección de TVP**<br>— Estudio, recopilación, análisis y proposición de métodos no invasivos para la detección de TVP en base a libros y artículos relacionados |
 | <img src="enlace_foto_4" width="90" style="border-radius:50%"> | **Nombre 4**<br>`Código: XXXX` | :small_blue_diamond: Aquí tu rol |
 | <img src="enlace_foto_5" width="90" style="border-radius:50%"> | **Nombre 5**<br>`Código: XXXX` | :small_blue_diamond: Aquí tu rol |
