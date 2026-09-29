@@ -1,4 +1,4 @@
-# Caracterización Óptica de Medios Turbios para Diagnóstico Médico No Invasivo de la Trombosis Venosa Profunda (TVP)
+# Caracterización Óptica de Medios Turbios para Diagnóstico Médico No Invasivo de la Trombosis Venosa Profunda (TVP) o Masas Tisulares
 
 # :book: Introducción
 El acceso equitativo y oportuno a métodos de diagnóstico médico representa uno de los mayores retos de la salud pública en el Perú y a nivel global :earth_americas:. Actualmente, la evaluación de patologías vasculares como la Trombosis Venosa Profunda (TVP), la isquemia muscular o la caracterización de masas tisulares depende fuertemente de tecnologías de imagenología convencional como la tomografía axial computarizada (TAC), la resonancia magnética (RM) y la ecografía Doppler. Si bien estos métodos ofrecen alta resolución espacial, su implementación masiva enfrenta graves limitaciones estructurales.
