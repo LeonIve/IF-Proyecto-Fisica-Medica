@@ -156,50 +156,65 @@ Costo ultra bajo comparado con equipos comerciales que cuestan miles de dólares
 
 ###### Artículos
 
-1.	Deng, F., Tang, Q., Jiang, M., (...), Liu, G. (2018) Infrared thermal imaging and Doppler vessel pressurization ultrasonography to detect lower extremity deep vein thrombosis: Diagnostic accuracy study. Clinical Respiratory Journal. https://doi.org/10.1111/crj.12639
-2.	Liu, X.-T., Zheng, Y.-Y., Jiang, Z.-Z., (...), Huang, Y.-H. (2020) Diagnostic value of infrared thermography in deep venous thrombosis of lower extremities. Chinese Journal of General Practice. https://doi.org/10.16766/j.cnki.issn.1674-4152.001601
-3.	Deng, F., Tang, Q., Zeng, G., (...), Zhong, N. (2015) Effectiveness of digital infrared thermal imaging in detecting lower extremity deep venous thrombosis. Medical Physics. https://doi.org/10.1118/1.4907969
-4.	Deng, F., Tang, Q., Zheng, Y., (...), Zhong, N. (2012) Infrared thermal imaging as a novel evaluation method for deep vein thrombosis in lower limbs. Medical Physics. https://doi.org/10.1118/1.4764485
-5.	Li, T., Sun, Y., Chen, X., (...), Ren, R. (2015) Noninvasive diagnosis and therapeutic effect evaluation of deep vein thrombosis in clinics by near-infrared spectroscopy. Journal of Biomedical Optics. https://doi.org/10.1117/1.JBO.20.1.010502
-6.	Zhao, K., Pan, B., Li, Z., (...), Li, T. (2018) Performance evaluation for a novel optoelectronic device for noninvasive monitoring thrombosis. Microelectronics Reliability. https://doi.org/10.1016/j.microrel.2018.03.021
-7.	Yamaki, T., Nozaki, M., Sakurai, H., (...), Kono, T. (2006) The utility of quantitative calf muscle near-infrared spectroscopy in the follow-up of acute deep vein thrombosis. Journal of Thrombosis and Haemostasis. https://doi.org/10.1111/j.1538-7836.2006.01859.x
-8.	Hosoi, Y., Yasuhara, H., Miyata, T., (...), Shigematsu, H. (1999) Comparison of near-infrared spectroscopy with air plethysmography in detection of deep vein thrombosis. International Angiology. https://www.scopus.com/pages/publications/0033495971
-9.	Korah, L.K., Scott, F.D., Williams, G.M., Kang, K.A. (2003) Preliminary studies of the application of near infrared spectroscopy in the diagnosis of deep vein thrombosis. Advances in Experimental Medicine and Biology. https://doi.org/10.1007/978-1-4615-0075-9_70
-10.	Arora, S., Lam, D.J.K., Kennedy, C., (...), Negus, D. (1993) Light reflection rheography: A simple noninvasive screening test for deep vein thrombosis. Journal of Vascular Surgery. https://doi.org/10.1016/0741-5214(93)90330-O
-11.	Lin, E.P., Bhatt, S., Dogra, V.S. (2008) Lower Extremity Venous Doppler. Ultrasound Clinics. https://doi.org/10.1016/j.cult.2007.12.005
-12.	Goodacre, S., Sampson, F., Stevenson, M., (...), Ryan, A. (2006) Measurement of the clinical and cost-effectiveness of non-invasive diagnostic testing strategies for deep vein thrombosis. Health Technology Assessment. https://doi.org/10.3310/hta10150
-13.	Scott, Frederick D., Kang, Kyung A., Williams, G.M. (1999) Diagnosis of deep vein thrombosis with NIR spectroscopy. Annual International Conference of the IEEE Engineering in Medicine and Biology - Proceedings. https://www.scopus.com/pages/publications/0033330798
-14.	Hosoi, Y., Yasuhara, H., Shigematsu, H., (...), Muto, T. (1999) Influence of popliteal vein thrombosis on subsequent ambulatory venous function measured by near-infrared spectroscopy. American Journal of Surgery. https://doi.org/10.1016/S0002-9610(98)00314-6
-15.	Enoch, S., Blair, S.D. (2003) Exclusion of deep vein thrombosis by measuring spot skin temperatures using a hand-held thermo-comparator. Phlebology. https://doi.org/10.1258/026835503322598009
-16.	Bagavathiappan, S., Saravanan, T., Philip, J., (...), Jagadeesan, K. (2008) Investigation of peripheral vacular disorders using thermal imaging. British Journal of Diabetes and Vascular Disease. https://doi.org/10.1177/14746514080080020901
-17.	Kang, S.-L., Manojlovich, L., Mrozcek, D., Benson, L. (2022) Infrared thermography as an adjunctive tool for detection of femoral arterial thrombosis after cardiac catheterization: A prospective, pilot study. Catheterization and Cardiovascular Interventions. https://doi.org/10.1002/ccd.30115
+[2] E. P. Lin, S. Bhatt, y V. S. Dogra, «Lower Extremity Venous Doppler», Ultrasound Clin., vol. 3, no. 1, pp. 115–124, 2008, doi: https://doi.org/10.1016/j.cult.2007.12.005.
+
+[3] S. Goodacre, F. Sampson, M. Stevenson, y A. Ryan, «Measurement of the clinical and cost-effectiveness of non-invasive diagnostic testing strategies for deep vein thrombosis», Health Technol. Assess., vol. 10, no. 15, 2006, doi: https://doi.org/10.3310/hta10150.
+
+[4] S. Enoch y S. D. Blair, «Exclusion of deep vein thrombosis by measuring spot skin temperatures using a hand-held thermo-comparator», Phlebology, vol. 18, no. 1, pp. 23–29, 2003, doi: https://doi.org/10.1258/026835503322598009.
+
+[5] S. Bagavathiappan, T. Saravanan, J. Philip, y K. Jagadeesan, «Investigation of peripheral vascular disorders using thermal imaging», Br. J. Diabetes Vasc. Dis., vol. 8, no. 2, pp. 102–108, 2008, doi: https://doi.org/10.1177/14746514080080020901.
+
+[6] F. Deng, Q. Tang, Y. Zheng, y N. Zhong, «Infrared thermal imaging as a novel evaluation method for deep vein thrombosis in lower limbs», Med. Phys., vol. 39, no. 11, pp. 7010–7015, 2012, doi: https://doi.org/10.1118/1.4764485.
+
+[7] F. Deng, Q. Tang, M. Jiang, y G. Liu, «Infrared thermal imaging and Doppler vessel pressurization ultrasonography to detect lower extremity deep vein thrombosis: Diagnostic accuracy study», Clin. Respir. J., vol. 12, no. 8, pp. 2382–2389, 2018, doi: https://doi.org/10.1111/crj.12639.
+
+[8] X.-T. Liu, Y.-Y. Zheng, Z.-Z. Jian, y Y.-H. Huang, «Diagnostic value of infrared thermography in deep venous thrombosis of lower extremities», Chin. J. Gen. Pract., 2020, doi: https://doi.org/10.16766/j.cnki.issn.1674-4152.001601.
+
+[9] F. Deng, Q. Tang, G. Zeng, y N. Zhong, «Effectiveness of digital infrared thermal imaging in detecting lower extremity deep venous thrombosis», Med. Phys., vol. 42, no. 2, pp. 752–757, 2015, doi: https://doi.org/10.1118/1.4907969.
+
+[10] S.-L. Kang, L. Manojlovich, D. Mroczek, y L. Benson, «Infrared thermography as an adjunctive tool for detection of femoral arterial thrombosis after cardiac catheterization: A prospective, pilot study», Catheter. Cardiovasc. Intervent., vol. 100, no. 2, pp. 215–222, 2022, doi: https://doi.org/10.1002/ccd.30115.
+
+[11] S. Arora, D. J. K. Lam, C. Kennedy, y D. Negus, «Light reflection rheography: A simple noninvasive screening test for deep vein thrombosis», J. Vasc. Surg., vol. 17, no. 3, pp. 541–521, 1993, doi: https://doi.org/10.1016/0741-5214(93)90330-O.
+
+[12] F. D. Scott, K. A. Kang, y G. M. Williams, «Diagnosis of deep vein thrombosis with NIR spectroscopy», en Proc. Annu. Int. Conf. IEEE Eng. Med. Biol. Soc., 1999. URL: https://www.scopus.com/pages/publications/0033330798
+
+[13] L. K. Korah, F. D. Scott, G. M. Williams, y K. A. Kang, «Preliminary studies of the application of near infrared spectroscopy in the diagnosis of deep vein thrombosis», Adv. Exp. Med. Biol., vol. 510, pp. 461–466, 2003, doi: https://doi.org/10.1007/978-1-4615-0075-9_70.
+
+[14] T. Li, Y. Sun, X. Chen, y R. Ren, «Noninvasive diagnosis and therapeutic effect evaluation of deep vein thrombosis in clinics by near-infrared spectroscopy», J. Biomed. Opt., vol. 20, no. 1, p. 010502, 2015, doi: https://doi.org/10.1117/1.JBO.20.1.010502.
+
+[15] T. Yamaki, M. Nozaki, H. Sakurai, y T. Kono, «The utility of quantitative calf muscle near-infrared spectroscopy in the follow-up of acute deep vein thrombosis», J. Thromb. Haemost., vol. 4, no. 8, pp. 1858–1859, 2006, doi: https://doi.org/10.1111/j.1538-7836.2006.01859.x.
+
+[16] Y. Hosoi, H. Yasuhara, T. Miyata, y H. Shigematsu, «Comparison of near-infrared spectroscopy with air plethysmography in detection of deep vein thrombosis», Int. Angiol., vol. 18, no. 4, pp. 334–339, 1999. URL: https://www.scopus.com/pages/publications/0033495971
+
+[17] Y. Hosoi, H. Yasuhara, H. Shigematsu, y T. Muto, «Influence of popliteal vein thrombosis on subsequent ambulatory venous function measured by near-infrared spectroscopy», Am. J. Surg., vol. 178, no. 4, pp. 314–316, 1999, doi: https://doi.org/10.1016/S0002-9610(98)00314-6.
+
+[18] K. Zhao, B. Pan, Z. Li, y T. Li, «Performance evaluation for a novel optoelectronic device for noninvasive monitoring thrombosis», Microelectron. Reliab., vol. 83, pp. 201–207, 2018, doi: https://doi.org/10.1016/j.microrel.2018.03.021.
 
 ###### Libros
+[1]. **Tuchin, V. V.** (2000). *Tissue Optics: Light Scattering Methods and Instruments for Medical Diagnosis*. SPIE Optical Engineering Press.
 
-1. **Wang, L. V., & Wu, H.** (2012). *Biomedical Optics: Principles and Imaging*. John Wiley & Sons.
+   📖 [ISBN: 978-0-8194-3459-3](https://doi.org/10.1117/3.353604)
+   
+[19]. **Wang, L. V., & Wu, H.** (2012). *Biomedical Optics: Principles and Imaging*. John Wiley & Sons.
 
    📖 [ISBN: 978-0-470-17700-6](https://doi.org/10.1002/9780470177013)
 
-2. **Bigio, I. J., & Fantini, S.** (2016). *Quantitative Biomedical Optics: Theory, Methods, and Applications*. Cambridge University Press.
+[20]. **Bigio, I. J., & Fantini, S.** (2016). *Quantitative Biomedical Optics: Theory, Methods, and Applications*. Cambridge University Press.
 
    📖 [ISBN: 978-0-521-87656-8](https://doi.org/10.1017/CBO9780511805347)
 
-3. **Keiser, G.** (2016). *Biophotonics: Concepts to Applications*. Springer.
+[21]. **Keiser, G.** (2016). *Biophotonics: Concepts to Applications*. Springer.
 
    📖 [ISBN: 978-981-10-0945-7](https://doi.org/10.1007/978-981-10-0945-7)
 
-4. **Tuchin, V. V.** (2000). *Tissue Optics: Light Scattering Methods and Instruments for Medical Diagnosis*. SPIE Optical Engineering Press.
-
-   📖 [ISBN: 978-0-8194-3459-3](https://doi.org/10.1117/3.353604)
-
-5. **Hoskins, P. R., Martin, K., & Thrush, A.** (2010). *Diagnostic Ultrasound: Physics and Equipment*. Cambridge University Press.
+[22]. **Hoskins, P. R., Martin, K., & Thrush, A.** (2010). *Diagnostic Ultrasound: Physics and Equipment*. Cambridge University Press.
 
    📖 [ISBN: 978-1-139-48890-7](https://doi.org/10.1017/CBO9780511761194)
 
-6. **Gloviczki, P.** (2017). *Handbook of Venous and Lymphatic Disorders: Guidelines of the American Venous Forum, Fourth Edition*. CRC Press.
+[23]. **Gloviczki, P.** (2017). *Handbook of Venous and Lymphatic Disorders: Guidelines of the American Venous Forum, Fourth Edition*. CRC Press.
 
    📖 [ISBN: 978-1-4987-2441-8](https://doi.org/10.1201/9781315111703)
 
-7. **Kasper, D. L., Fauci, A. S., Hauser, S. L., Longo, D. L., Jameson, J. L., & Loscalzo, J.** (2018). *Harrison’s Principles of Internal Medicine* (20th ed., Vols. 1–2). McGraw Hill Professional.
+[24]. **Kasper, D. L., Fauci, A. S., Hauser, S. L., Longo, D. L., Jameson, J. L., & Loscalzo, J.** (2018). *Harrison’s Principles of Internal Medicine* (20th ed., Vols. 1–2). McGraw Hill Professional.
 
    📖 [ISBN: 978-1-259-64404-7](https://doi.org/10.1036/9781259644030)
