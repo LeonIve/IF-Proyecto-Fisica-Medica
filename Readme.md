@@ -39,10 +39,10 @@ Finalmente, el desarrollo reciente de instrumentación optoelectrónica dedicada
 
 
 ### 4. Objetivo :pushpin:
-###4.1. :dart: Objetivo General:
+### 4.1. :dart: Objetivo General:
 Desarrollar un prototipo de caracterización y diagnóstico óptico no invasivo, portátil y de bajo costo, basado en Espectroscopía de Infrarrojo Cercano multicanal, para estimar las variaciones hemodinámicas de oxihemoglobina ($\Delta[\text{HbO}_2]$) y desoxihemoglobina ($\Delta[\text{Hb}]$) en tejido biológico, orientado al tamizaje de Trombosis Venosa Profunda y la diferenciación de masas tisulares en centros de atención primaria.
 
-###4.2. :dart: Objetivo Específicos:
+### 4.2. :dart: Objetivo Específicos:
 1. **Diseño de la Sonda Óptica:**
    - Diseñar una geometría de sonda con un arreglo optoelectrónico multicanal a distancias de 1.5 cm a 3.5 cm entre emisores y detectores, para desacoplar ópticamente las señales del tejido cutáneo superficial de las capas profundas subyacentes.
 2. **Implementación del Hardware Electrónico:**
