@@ -39,9 +39,23 @@ Finalmente, el desarrollo reciente de instrumentación optoelectrónica dedicada
 
 
 ### 4. Objetivo :pushpin:
-- :dart: Detección de tumores y prevención de muerte por trombosis venosa profunda (TVP) mediante el desarrollo y mejoramiento de un dispositivo NIRS (Near-Infrared Spectroscopy).
-- :chart_down: Reducción de coste de pruebas y análisis de TVP.
-- :zap: Accesibilidad inmediata y reducción en el tiempo de análisis de TVP.
+###4.1. :dart: Objetivo General:
+Desarrollar un prototipo de caracterización y diagnóstico óptico no invasivo, portátil y de bajo costo, basado en Espectroscopía de Infrarrojo Cercano multicanal, para estimar las variaciones hemodinámicas de oxihemoglobina ($\Delta[\text{HbO}_2]$) y desoxihemoglobina ($\Delta[\text{Hb}]$) en tejido biológico, orientado al tamizaje de Trombosis Venosa Profunda y la diferenciación de masas tisulares en centros de atención primaria.
+
+###4.2. :dart: Objetivo Específicos:
+1. **Diseño de la Sonda Óptica:**
+   *:chart_down: Diseñar una geometría de sonda con un arreglo optoelectrónico multicanal a distancias de 1.5 cm a 3.5 cm entre emisores y detectores, para desacoplar ópticamente las señales del tejido cutáneo superficial de las capas profundas subyacentes.
+2. **Implementación del Hardware Electrónico:**
+   *:chart_down:Implementar el circuito de iluminación pulsada multiespectral (660 nm y 850 nm / 940 nm) y la etapa de fotodetección con componentes portátiles de bajo consumo energético.
+   *:chart_down:Construir el módulo analógico de acondicionamiento de señal mediante amplificación de transimpedancia, filtrado pasa-banda activo y supresión de luz ambiental.
+3. **Desarrollo del Programa de Control:**
+   *:chart_down:Programar en el microcontrolador la adquisición analógica-digital, la conmutación secuencial de diodos emisores de luz y el procesamiento en tiempo real de los índices hemodinámicos.
+   *:chart_down:Integrar una interfaz de visualización directa (pantalla de diodos orgánicos de emisión de luz) que presente los resultados de forma rápida e intuitiva para el personal de triaje.
+4. **Pruebas de Campo y calibración:**
+   *:chart_down:Calibrar y validar la respuesta del prototipo utilizando simuladores tisulares (phantoms) con propiedades de absorción y dispersión conocidas.
+   *:chart_down: Evaluar la capacidad del dispositivo para discriminar entre respuestas de estasis venosa e hipervascularización en entornos de ensayo controlados sobre los simuladores de gelatina.
+5. **Evaluación de Costos e Impacto:**
+   *:chart_down:Demostrar la viabilidad técnico-económica del dispositivo logrando un costo de producción estimado entre S/. 56 y S/. 82, para su potencial despliegue en zonas rurales y centros de atención primaria.
 
 ## :electric_plug: Parte Electrónica del Dispositivo
 
