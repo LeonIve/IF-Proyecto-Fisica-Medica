@@ -29,40 +29,14 @@ Aproximadamente el 50% de los pacientes con Trombosis Venosa Profunda y una frac
 Se propone el desarrollo y mejoramiento de un sistema de caracterización y diagnóstico óptico no invasivo, portátil y de ultra bajo costo que medirá las concentraciones de oxihemoglobina Δ[HbO₂] y desoxihemoglobina Δ[Hb] mediante luz y sensores IR. Utilizando las propiedades de transporte de radiación electromagnética no ionizante en medios turbios (tejidos biológicos) y la Ley de Beer-Lambert para traducir densidades ópticas en datos de Δ[HbO₂] y Δ[Hb]. El dispositivo permite realizar descartes rápidos en triaje o atención primaria en un par de minutos, sin requerir personal altamente especializado ni infraestructura compleja.
 
 ### 3. Antecedentes :pushpin:
+La necesidad de detectar trombos y masas tumorales sin cirugías exploratorias impulsó, desde mediados del siglo XX, el desarrollo de la imagenología moderna. Aunque la llegada del ultrasonido Doppler, la tomografía y la resonancia magnética consolidó el estándar de oro diagnóstico, su elevado costo e infraestructura limitaron su uso a hospitales de alta complejidad. Para cubrir este vacío en la atención primaria, en los años 90 emergió la biofotónica como una alternativa no invasiva, portátil y de bajo costo basada en la interacción de la luz infrarroja con el tejido biológico [1]. Es en esta evolución donde se enmarca el presente proyecto, buscando optimizar la detección vascular mediante un sistema óptico multicanal accesible. 
 
-- Estudio diagnóstico en 157 pacientes sospechosos de TVP de extremidad inferior; la termografía infrarroja mostró sensibilidad de 88.33% y especificidad de 65.00%, y los autores la proponen como complemento de la ultrasonografía Doppler [1].
+Partiendo de estos fundamentos, en los últimos años diversas investigaciones han explorado alternativas ópticas e infrarrojas para superar las limitaciones de accesibilidad y costo que presentan las técnicas estándar de imagenología médica [2], [3]. En el ámbito de la termografía infrarroja (TIR), diversos autores evaluaron la asimetría térmica de la piel como indicador indirecto de alteraciones hemodinámicas y procesos inflamatorios agudos asociados a eventos trombóticos o vasculares [4], [5]. Estudios clínicos preliminares, como los desarrollados en modelos animales por Deng et al. [6] y en cohortes de pacientes con sospecha de trombosis venosa profunda (TVP), reportaron altos niveles de sensibilidad entre 88.3% y 96.88% mediante el uso de termografía infrarroja digital como herramienta adyuvante al ecógrafo Doppler en extremidades inferiores [7], [8], [9] o arteria femoral [10]. Sin embargo, la literatura coincide en que la termografía ofrece un desempeño moderado en especificidad frente al Doppler color debido a su alta susceptibilidad a factores ambientales y a que solo mide la radiación térmica superficial cutánea [7]. A partir de estos hallazgos, para el desarrollo de nuestro dispositivo se decide prescindir del monitoreo meramente térmico como técnica principal, reemplazándolo o complementándolo con una arquitectura de detección por espectroscopía activa, la cual permite interrogar directamente el volumen tisular subyacente y reducir la variabilidad por ruido ambiental.
 
-- Estudio de 2020 sobre el valor diagnóstico de la termografía infrarroja en TVP de extremidades inferiores; se reportó como un método auxiliar de cribado con desempeño moderado frente a Doppler color [2].
+Por otro lado, la Espectroscopía de Infrarrojo Cercano (EINC) y la Reografía de Reflexión de Luz (RRL) han demostrado ser técnicas sólidas y no invasivas para la caracterización vascular y la evaluación hemodinámica cuantitativa [11]. Trabajos pioneros de Scott et al. [12] y Korah et al. [10] establecieron la factibilidad de utilizar dispositivos EINC portátiles para monitorear en tiempo real las variaciones relativas de hemoglobina oxigenada (HbO2) y desoxihemoglobina (HHb) mediante maniobras de provocación vascular. De igual forma, investigaciones clínicas llevadas a cabo por Li et al. [12], Yamaki et al. [13] y Hosoi et al. [14], [15] confirmaron que la NIRS presenta una elevada sensibilidad de hasta del 97% en la evaluación del flujo venoso, el reflujo y la recanalización en la pantorrilla, superando a métodos como la pletismografía por aire, técnica que mide cambios de volumen mediante un brazalete inflable en la pierna, especialmente en la detección de patologías vasculares distales. No obstante, la mayoría de estos desarrollos se enfocan tradicionalmente en equipos voluminosos de laboratorio y poco portátiles, o sistemas monocanal. Esta última configuración impide separar la información de la piel superficial del tejido profundo, limitando su capacidad a detectar únicamente oclusiones venosas severas o muy avanzadas. Para nuestro diseño, se propone modificar la geometría de la sonda implementando un arreglo optoelectrónico multicanal con distancias emisor-detector optimizadas (1.5cm a 3.5cm), permitiendo restar el efecto de la capa cutánea superficial y diferenciar tanto estasis venosa como hipervascularización tumoral.
 
-- En 64 pacientes con TVP y 64 controles sanos, la imagen térmica infrarroja digital detectó positividad en 96.88% de los casos confirmados; se plantea como herramienta adyuvante para detección [3].
+Finalmente, el desarrollo reciente de instrumentación optoelectrónica dedicada ha enfatizado la necesidad de garantizar estabilidad técnica a bajo costo, trabajos como el de Zhao et al. [16] destacan que el éxito clínico de un monitor NIRS portátil reside en la supresión activa del ruido oscuro, la compensación de deriva térmica y la inmunidad frente a interferencias electromagnéticas. Tomando como referencia estas recomendaciones, nuestro proyecto adoptará un sistema de iluminación multiespectral pulsada (660nm y 850nm) junto con un módulo de amplificación de transimpedancia (AMP-TI) y filtrado pasa-banda activo. Estas modificaciones permitirán obtener un prototipo robusto, inmune a la luz ambiental y de ultra bajo costo, apto para su despliegue en centros de atención primaria y triaje.
 
-- Estudio experimental en conejo que sugiere que la termografía infrarroja detecta precozmente la TVP y lo presenta como un método rápido, no invasivo y sensible [4].
-
-- Estudio clínico pequeño en 9 pacientes con TVP y 7 sanos; la NIRS distinguió patrones de hemoglobina oxigenada y desoxigenada y también sirvió para evaluar respuesta al tratamiento trombolítico [5].
-
-- Informe sobre un nuevo dispositivo optoelectrónico para monitorizar trombosis; se describe la NIRS como una técnica no invasiva, rápida y continua para seguimiento [6].
-
-- Seguimiento de 78 extremidades con TVP aguda mediante NIRS cuantitativa; fue útil para valorar función venosa, recanalización y reflujo venoso tras la TVP [7].
-
-- Comparó NIRS con pletismografía por aire en detección de TVP; la NIRS alcanzó sensibilidad global de 97% y rindió mejor en TVP distal aislada [8].
-
-- Estudio preliminar de factibilidad de un dispositivo NIR portátil y en tiempo real para diagnóstico de TVP mediante cambios en oxihemoglobina y desoxihemoglobina [9].
-
-- La light reflection rheography usa luz infrarroja reflejada para evaluar vaciamiento venoso; se presentó como prueba de cribado con sensibilidad de 96.4% y especificidad de 82.9% [10].
-
-- Revisión sobre Doppler venoso de extremidad inferior; se usó como contexto comparativo frente a las técnicas infrarrojas, pero no como estudio principal de infrarrojo [11].
-
-- Revisión sobre estrategias diagnósticas no invasivas para TVP; también aparece como contexto general para comparar el papel de infrarrojo y NIRS frente a otras pruebas [12].
-
-- Trabajo sobre diagnóstico de TVP con NIR spectroscopy; se centra en cambios funcionales venosos medidos por espectroscopia infrarroja cercana [13].
-
-- Estudio sobre la influencia de la trombosis poplítea en la función venosa ambulante medida por NIRS; aporta evidencia de seguimiento funcional tras trombosis [14].
-
-- Estudio con termocomparador manual para medir temperaturas puntuales de piel y ayudar a excluir TVP; se relaciona con el uso de biomarcadores térmicos [15].
-
-- Investigación sobre trastornos vasculares periféricos usando imagen térmica; aporta contexto para el uso de patrones térmicos y diferencias de temperatura [16].
-
-- Estudio piloto sobre termografía infrarroja como herramienta adjunta para detectar trombosis arterial femoral tras cateterismo; útil como referencia de un umbral de asimetría térmica, no de TVP específicamente [17].
 
 ### 4. Objetivo :pushpin:
 - :dart: Detección de tumores y prevención de muerte por trombosis venosa profunda (TVP) mediante el desarrollo y mejoramiento de un dispositivo NIRS (Near-Infrared Spectroscopy).
