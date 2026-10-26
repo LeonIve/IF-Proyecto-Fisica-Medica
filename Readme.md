@@ -70,6 +70,7 @@ El sistema electrónico es el :heart: corazón del dispositivo NIRS. Se encarga 
 | Foto | Componente | Función | Recomendación |
 |:---:|---|---|---|
 | <img src="Imagenes/images.jfif" width="120"> | :brain: Microcontrolador | Cerebro del sistema: controla emisión, lee sensores, procesa datos | Arduino Nano / ESP32 — económico, fácil de programar, suficiente para NIRS |
+| <img src="Imagenes/images.jfif" width="120"> | :brain: Microcontrolador | Carga batería 3.7V desde 5V USB-C con corte automático a 4.2V; protege contra sobrecarga, sobredescarga y cortocircuito; entrega energía por OUT+/OUT- al resto del sistema | Versión con protección integrada (DW01A + MOSFET), conectar batería en B+/B- y salida hacia MT3608 en OUT+/OUT- |
 | <img src="Imagenes/images (1).jfif" width="120"> | :flashlight: LED Infrarrojo (IR) | Emite luz hacia el tejido biológico | LED 850 nm y 940 nm (dos longitudes de onda para medir HbO₂ y Hb) |
 | <img src="Imagenes/images (2).jfif" width="120"> | :eye: Fotodiodo / Fototransistor | Recibe la luz que regresa del tejido y la convierte en señal eléctrica | Fotodiodo BPW21 o similar — sensible en rango visible e IR |
 | <img src="Imagenes/images (3).jfif" width="120"> | :loudspeaker: Circuito de Amplificación | La señal del fotodiodo es muy débil → se necesita amplificar | Op-Amp LM358 o TL081 — amplificador operacional de bajo costo |
