@@ -57,68 +57,70 @@ Desarrollar un prototipo de caracterización y diagnóstico óptico no invasivo,
 5. **Evaluación de Costos e Impacto:**
    - Demostrar la viabilidad técnico-económica del dispositivo logrando un costo de producción estimado entre S/. 56 y S/. 82, para su potencial despliegue en zonas rurales y centros de atención primaria.
 
-### 5. Metodología Experimental y de Desarrollo 📌
-La metodología implementada en este proyecto adopta el enfoque de Aprendizaje Basado en Proyectos (ABP), estructurando el desarrollo del prototipo en tres etapas fundamentales: diseño del hardware optoelectrónico, modelado del procesamiento de señal y un protocolo riguroso de validación experimental en laboratorio.
+## 5. Metodología Experimental y de Desarrollo 📌
+La metodología implementada en este proyecto adopta el enfoque de Aprendizaje Basado en Proyectos (ABP), estructurando el desarrollo del prototipo en tres etapas fundamentales: diseño del hardware optoelectrónico, modelado del procesamiento de señal y un protocolo riguroso de validación experimental en laboratorio[cite: 1].
 
-#### 5.1. Arquitectura de Hardware y Sonda Óptica Multicanal
-El sistema optoelectrónico está diseñado bajo una arquitectura portátil, modular y de ultra bajo costo (estimado entre S/. 56.00 y S/. 82.00) [5, 9]. La cadena de acondicionamiento de señal comprende las siguientes etapas:
+---
+
+### 5.1. Arquitectura de Hardware y Sonda Óptica Multicanal
+El sistema optoelectrónico está diseñado bajo una arquitectura portátil, modular y de ultra bajo costo (estimado entre S/. 56.00 y S/. 82.00)[cite: 4]. La cadena de acondicionamiento de señal comprende las siguientes etapas:
 
 1. **Sonda Optoelectrónica Multicanal:**
-  - **Geometría de Detección:** Se implementa un arreglo en reflexión con distancias emisor-detector de 1.5 cm (canal corto) y 3.5 cm (canal largo) [10, 11]. La separación de 1.5 cm limita la penetración a la capa cutánea superficial ($\approx 0.75\text{ cm}$), mientras que la distancia de 3.5 cm alcanza el tejido vascular y muscular profundo ($\approx 1.75\text{ cm}$) [10-12].
-  - **Iluminación Pulsada Multiespectral:** Se emplean diodos LEDs en el espectro del infrarrojo cercano (660 nm sensible a desoxihemoglobina $\text{Hb}$, y 850 nm / 940 nm sensible a oxihemoglobina $\text{HbO}_2$) [5, 6]. Los LEDs son excitados secuencialmente mediante modulación por ancho de pulso (PWM) desde el microcontrolador a frecuencia fija para evitar el sobrecalentamiento [1, 7, 8].
-  - **Fotodetección:** Se utiliza un fotodiodo de silicio de alta sensibilidad en el rango visible e infrarrojo cercano (BPW21 o similar) [6, 13].
+   * **Geometría de Detección:** Se implementa un arreglo en reflexión con distancias emisor-detector de $1.5\text{ cm}$ (canal corto) y $3.5\text{ cm}$ (canal largo)[cite: 4]. La separación de $1.5\text{ cm}$ limita la penetración a la capa cutánea superficial ($\approx 0.75\text{ cm}$), mientras que la distancia de $3.5\text{ cm}$ alcanza el tejido vascular y muscular profundo ($\approx 1.75\text{ cm}$)[cite: 4].
+   * **Iluminación Pulsada Multiespectral:** Se emplean diodos LEDs en el espectro del infrarrojo cercano ($660\text{ nm}$ sensible a desoxihemoglobina $\text{Hb}$, y $850\text{ nm} / 940\text{ nm}$ sensible a oxihemoglobina $\text{HbO}_2$)[cite: 4]. Los LEDs son excitados secuencialmente mediante modulación por ancho de pulso (PWM) desde el microcontrolador a frecuencia fija para evitar el sobrecalentamiento[cite: 4].
+   * **Fotodetección:** Se utiliza un fotodiodo de silicio de alta sensibilidad en el rango visible e infrarrojo cercano (BPW21 o similar)[cite: 4].
 
 2. **Acondicionamiento Analógico de Señal:**
-- **Amplificador de Transimpedancia (AMP-TI):** La fotocorriente débil ($I_{ph}$) generada por los fotones retrodispersados se convierte en una tensión de voltaje medible mediante un amplificador operacional de bajo costo (LM358 o TL081) [6, 8, 13]:
-     $$V_{out} = -I_{ph} \cdot R_f$$
-     donde $R_f$ es la resistencia de realimentación ajustada para la ganancia del canal.
-- **Filtrado Activo y Supresión de Luz Ambiental:** Se incorpora una red RC pasa-bajo (condensadores de 100 nF) para atenuar interferencias de la red eléctrica de 50/60 Hz [6, 13]. El microcontrolador ejecuta un algoritmo de resta activa en tiempo real: lee el voltaje con el LED encendido ($V_{\text{on}}$) y con el LED apagado ($V_{\text{off}}$), calculando $V_{\text{útil}} = V_{\text{on}} - V_{\text{off}}$ para cancelar por completo la iluminación de fondo del entorno [1, 8, 14].
+   * **Amplificador de Transimpedancia (AMP-TI):** La fotocorriente débil ($I_{ph}$) generada por los fotones retrodispersados se convierte en una tensión de voltaje medible mediante un amplificador operacional de bajo costo (LM358 o TL081)[cite: 4]:
+     $$V_{\text{out}} = -I_{\text{ph}} \cdot R_f$$
+     donde $R_f$ es la resistencia de realimentación ajustada para la ganancia del canal[cite: 4].
+   * **Filtrado Activo y Supresión de Luz Ambiental:** Se incorpora una red RC pasa-bajo (condensadores de $100\text{ nF}$) para atenuar interferencias de la red eléctrica de $50/60\text{ Hz}$[cite: 4]. El microcontrolador ejecuta un algoritmo de resta activa en tiempo real: lee el voltaje con el LED encendido ($V_{\text{on}}$) y con el LED apagado ($V_{\text{off}}$), calculando $V_{\text{útil}} = V_{\text{on}} - V_{\text{off}}$ para cancelar por completo la iluminación de fondo del entorno[cite: 4].
 
 3. **Control y Despliegue Directo:**
-- Un microcontrolador de bajo consumo (Arduino Nano / ESP32) realiza la conversión analógico-digital (ADC) de 10/12 bits, aplica las ecuaciones de transporte óptico y despliega las variaciones hemodinámicas en tiempo real sobre una pantalla OLED 128x64 pixels mediante bus I2C [6, 8, 13]. El sistema es alimentado por una batería Li-ion de 3.7V acoplada a un cargador TP4056 y regulador elevador a 5V [6, 13].
+   * Un microcontrolador de bajo consumo (Arduino Nano / ESP32) realiza la conversión analógico-digital (ADC) de $10/12\text{ bits}$, aplica las ecuaciones de transporte óptico y despliega las variaciones hemodinámicas en tiempo real sobre una pantalla OLED $128\times64$ píxeles mediante bus I2C[cite: 4]. El sistema es alimentado por una batería Li-ion de $3.7\text{ V}$ acoplada a un cargador TP4056 y regulador elevador a $5\text{ V}$[cite: 4].
 
 ---
 
-#### 5.2. Modelado Físico y Algoritmo de Procesamiento (Ley de Beer-Lambert Modificada)
-Para traducir la atenuación de la intensidad luminosa detectada en variaciones cuantitativas de concentración de hemoglobina en tejidos turbios dispersores, el programa del microcontrolador y los scripts de procesamiento en Python aplican la Ley de Beer-Lambert Modificada (MBLL) [7, 8, 15]:
+### 5.2. Modelado Físico y Algoritmo de Procesamiento (Ley de Beer-Lambert Modificada)
+Para traducir la atenuación de la intensidad luminosa detectada en variaciones cuantitativas de concentración de hemoglobina en tejidos turbios dispersores, el programa del microcontrolador y los scripts de procesamiento en Python aplican la Ley de Beer-Lambert Modificada (MBLL)[cite: 4]:
 
-$$\Delta OD(\lambda) = \ln\left(\frac{I_0(\lambda)}{I(\lambda)}\right) = \left( \epsilon_{\text{HbO}_2}(\lambda) \cdot \Delta[\text{HbO}_2] + \epsilon_{\text{Hb}}(\lambda) \cdot \Delta[\text{Hb}] \right) \cdot r \cdot DPF(\lambda) + G$$
+$$\Delta OD(\lambda) = \ln\left(\frac{I_0(\lambda)}{I(\lambda)}\right) = \left( \varepsilon_{\text{HbO}_2}(\lambda) \cdot \Delta[\text{HbO}_2] + \varepsilon_{\text{Hb}}(\lambda) \cdot \Delta[\text{Hb}] \right) \cdot r \cdot DPF(\lambda) + G$$
 
 donde:
-- $\Delta OD(\lambda)$ es la variación de densidad óptica atenuada a la longitud de onda $\lambda$.
-- $I_0$ e $I$ corresponden a la intensidad incidente y detectada, respectivamente.
-- $\epsilon_{\text{HbO}_2}(\lambda)$ y $\epsilon_{\text{Hb}}(\lambda)$ son los coeficientes de extinción molar de cada cromóforo.
-- $r$ es la distancia física entre el LED y el fotodiodo.
-- $DPF(\lambda)$ es el Factor de Camino Óptico Diferencial (*Differential Pathlength Factor*) que contabiliza la trayectoria efectiva extendida por la dispersión múltiple en el tejido.
-- $G$ representa el factor de pérdida por geometría del sensor.
+* $\Delta OD(\lambda)$ es la variación de densidad óptica atenuada a la longitud de onda $\lambda$.
+* $I_0$ e $I$ corresponden a la intensidad incidente y detectada, respectivamente[cite: 4].
+* $\varepsilon_{\text{HbO}_2}(\lambda)$ y $\varepsilon_{\text{Hb}}(\lambda)$ son los coeficientes de extinción molar de cada cromóforo[cite: 4].
+* $r$ es la distancia física entre el LED y el fotodiodo[cite: 4].
+* $DPF(\lambda)$ es el Factor de Camino Óptico Diferencial (*Differential Pathlength Factor*) que contabiliza la trayectoria efectiva extendida por la dispersión múltiple en el tejido[cite: 4].
+* $G$ representa el factor de pérdida por geometría del sensor[cite: 4].
 
-Evaluando la atenuación en dos longitudes de onda simultáneas ($\lambda_1 = 660\text{ nm}$ y $\lambda_2 = 850/940\text{ nm}$), el algoritmo resuelve un sistema de matrices de $2 \times 2$ para despejar los valores instantáneos de $\Delta[\text{HbO}_2]$ y $\Delta[\text{Hb}]$. Posteriormente, se aplica la sustracción algorítmica ($S_{\text{profundo}} - S_{\text{superficial}}$) entre el canal de 3.5 cm y el de 1.5 cm para aislar las señales del paquete vascular o masa tisular profunda [10, 11].
+Evaluando la atenuación en dos longitudes de onda simultáneas ($\lambda_1 = 660\text{ nm}$ y $\lambda_2 = 850/940\text{ nm}$), el algoritmo resuelve un sistema de matrices de $2 \times 2$ para despejar los valores instantáneos de $\Delta[\text{HbO}_2]$ y $\Delta[\text{Hb}]$. Posteriormente, se aplica la sustracción algorítmica ($S_{\text{profundo}} - S_{\text{superficial}}$) entre el canal de $3.5\text{ cm}$ y el de $1.5\text{ cm}$ para aislar las señales del paquete vascular o masa tisular profunda[cite: 4].
 
 ---
 
-#### 5.3. Protocolo de Ensayos Experimentales y Calibración en Laboratorio
-Con el fin de validar la confiabilidad, estabilidad y sensibilidad del prototipo frente a estándares de instrumentación médica no invasiva, se implementará un protocolo de laboratorio dividido en cuatro ensayos controlados [3, 5]:
+### 5.3. Protocolo de Ensayos Experimentales y Calibración en Laboratorio
+Con el fin de validar la confiabilidad, estabilidad y sensibilidad del prototipo frente a estándares de instrumentación médica no invasiva, se implementará un protocolo de laboratorio dividido en cuatro ensayos controlados[cite: 2, 4]:
 
 1. **Prueba de Estabilidad Térmica (8 horas):**
-  - **Procedimiento:** Se acoplará la sonda optoelectrónica a un simulador tisular (*phantom*) neutro dentro de una cámara oscura a temperatura ambiental controlada (25 °C) [3].
-  - **Medición:** Se operará el sistema continuamente durante 8 horas registrando la tensión de salida del fotodiodo ($V_{out}$) y monitoreando periódicamente la temperatura del LED emisor y del fotodiodo mediante un termómetro inalámbrico [3].
-  - **Criterio de Aprobación:** Comprobar la ausencia de deriva temporal en el voltaje de salida para garantizar que el calentamiento de los componentes no afecte la medición [3, 16].
+   * **Procedimiento:** Se acoplará la sonda optoelectrónica a un simulador tisular (*phantom*) neutro dentro de una cámara oscura a temperatura ambiental controlada ($25\text{ }^\circ\text{C}$)[cite: 2].
+   * **Medición:** Se operará el sistema continuamente durante 8 horas registrando la tensión de salida del fotodiodo ($V_{\text{out}}$) y monitoreando periódicamente la temperatura del LED emisor y del fotodiodo mediante un termómetro inalámbrico[cite: 2].
+   * **Criterio de Aprobación:** Comprobar la ausencia de deriva temporal en el voltaje de salida para garantizar que el calentamiento de los componentes no afecte la medición[cite: 2, 4].
 
 2. **Prueba de Robustez Ante Interferencias Externas (Mecánica, EMI y Ruido Oscuro):**
-  - **Inmunidad a Presión Mecánica:** Se colocará la sonda sobre un *phantom* sólido y se aplicarán cargas mecánicas progresivas (0.5 kg, 1.0 kg y 1.5 kg) sobre la cara posterior de la sonda [3]. Se verificará que la fuerza de sujeción al cuerpo no modifique la respuesta de voltaje del sensor [3, 16].
-  - **Interferencia Electromagnética (EMI):** Se ubicará un dispositivo móvil emitiendo llamadas a 10 cm del circuito analógico durante la lectura [3]. Se calculará el porcentaje de ruido por interferencia ($NP_i$), exigiendo un valor $NP_i < 1\%$ para asegurar el blindaje del amplificador [3, 16]:
+   * **Inmunidad a Presión Mecánica:** Se colocará la sonda sobre un *phantom* sólido y se aplicarán cargas mecánicas progresivas ($0.5\text{ kg}$, $1.0\text{ kg}$ y $1.5\text{ kg}$) sobre la cara posterior de la sonda[cite: 2]. Se verificará que la fuerza de sujeción al cuerpo no modifique la respuesta de voltaje del sensor[cite: 2, 4].
+   * **Interferencia Electromagnética (EMI):** Se ubicará un dispositivo móvil emitiendo llamadas a $10\text{ cm}$ del circuito analógico durante la lectura[cite: 2]. Se calculará el porcentaje de ruido por interferencia ($NP_i$), exigiendo un valor $NP_i < 1\%$ para asegurar el blindaje del amplificador[cite: 2, 4]:
      $$NP_i = \left| \frac{U_{\text{sin interf}} - U_{\text{con interf}}}{U_{\text{con interf}}} \right| \times 100\%$$
-  - **Ruido Oscuro (*Dark Noise*):** Se registrará el offset de voltaje en oscuridad total y con iluminación ambiental variable, requiriendo un porcentaje de ruido $NP_d < 1\%$ [3, 16].
+   * **Ruido Oscuro (*Dark Noise*):** Se registrará el offset de voltaje en oscuridad total y con iluminación ambiental variable, requiriendo un porcentaje de ruido $NP_d < 1\%$[cite: 2, 4].
 
 3. **Prueba de Sensibilidad y Linealidad con Phantoms Líquidos/Gelatina:**
-  - **Procedimiento:** En un contenedor con 600 mL de solución dispersora turbia (agua con intralipid o emulsión) sobre un agitador magnético, se inyectarán micro-dosis cuantitativas de tinta china diluida [17, 18].
-  - **Medición:** Se registrará la caída escalonada de la densidad óptica al aumentar la concentración de absorbedores en la solución [16, 18].
-  - **Criterio de Aprobación:** Validar la linealidad entre el coeficiente de atenuación medido por el fotodiodo y la concentración molar inyectada conforme a Beer-Lambert [16, 18].
+   * **Procedimiento:** En un contenedor con $600\text{ mL}$ de solución dispersora turbia (agua con intralipid o emulsión) sobre un agitador magnético, se inyectarán microdosis cuantitativas de tinta china diluida[cite: 2, 4].
+   * **Medición:** Se registrará la caída escalonada de la densidad óptica al aumentar la concentración de absorbedores en la solución[cite: 2, 4].
+   * **Criterio de Aprobación:** Validar la linealidad entre el coeficiente de atenuación medido por el fotodiodo y la concentración molar inyectada conforme a la Ley de Beer-Lambert[cite: 2, 4].
 
 4. **Prueba Fisiológica In Vivo (*Cuff Experiment* / Experimento del Manguito):**
-  - **Procedimiento:** Se colocará un brazalete de esfigmomanómetro en el brazo de un voluntario y se inflará a $140\text{ mmHg}$ durante 3 minutos para inducir una oclusión vascular temporal (simulando estasis venosa/trombosis) [18].
-  - **Medición:** Al liberar la válvula, el software registrará las curvas dinámicas de decaimiento y recuperación de oxihemoglobina ($\Delta[\text{HbO}_2]$) y desoxihemoglobina ($\Delta[\text{Hb}$]) en tiempo real [16, 18].
-  - **Criterio de Aprobación:** Comprobar que el algoritmo detecta automáticamente la estasis sanguínea (caída de $\text{HbO}_2$ e incremento de $\text{Hb}$) y la respuesta hiperémica reactiva posterior [16, 18].
+   * **Procedimiento:** Se colocará un brazalete de esfigmomanómetro en el brazo de un voluntario y se inflará a $140\text{ mmHg}$ durante 3 minutos para inducir una oclusión vascular temporal (simulando estasis venosa/trombosis)[cite: 2, 4].
+   * **Medición:** Al liberar la válvula, el software registrará las curvas dinámicas de decaimiento y recuperación de oxihemoglobina ($\Delta[\text{HbO}_2]$) y desoxihemoglobina ($\Delta[\text{Hb}$]) en tiempo real[cite: 2, 4].
+   * **Criterio de Aprobación:** Comprobar que el algoritmo detecta automáticamente la estasis sanguínea (caída de $\text{HbO}_2$ e incremento de $\text{Hb}$) y la respuesta hiperémica reactiva posterior[cite: 2, 4].
 
 ## :electric_plug: Parte Electrónica del Dispositivo
 
